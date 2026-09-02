@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/calculo-trabalhista-mcp",
+  "title": "Cálculo Trabalhista",
+  "description": "Brazilian labor calculation for AI: update labor claims and awards with official correction, interes",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/calculo-trabalhista-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_calculo-trabalhista"
+    }
+  ]
+}
